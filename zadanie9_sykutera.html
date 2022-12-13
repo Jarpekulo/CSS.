@@ -12,7 +12,7 @@
 	<caption></caption> 
 	<thead> 
 	<tr>
-	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1><head>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1><&nbsphead>
 	(...)
 	<br>
 	<&nbsplink rel="Stylesheet" type="text/css" href="style.css" />
@@ -22,15 +22,142 @@
 	<&nbsp/head></h1></th>
 	<tr> 
 	</table>
+	
+	
+	
+	
 	<li><h1>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1></li>
+	<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu. (sekcja head ) <br>
+	<br>
+	Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <link rel="Stylesheet" />.</h1>
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Jak jest najprostsza forma wstawiania stylu zewnętrznego -> otoczony ramką (może być tabela jedno komórkowa?</h1></li>
+		<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	Wstawianie tej linijki w <&nbsphead>
+	<br> <br>
+	<&nbsplink rel="Stylesheet" type="text/css" href="style.css" /></h1>
+	
+	
+	</table>
+	
 	<li><h1>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30">
+	<h1>
+	można dołączyć dowolną liczbę zewnętrznych arkuszy stylów - każdy jako osobny element <link rel="Stylesheet" />.</h1>
+	
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później. Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst. </h1>
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst.
+	<h1>
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	Tak samo jak w zwykłym edytorze ale z podświetleniami. </h1>
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	1)wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.
+	<br>
+	<br>
+2) jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez konieczności zmiany każdej strony osobno.</h1>
+	</table>
+	
+	
+	
+	
+	
 	<li><h1>Uwagi na temat pisania w CSS.</h1></li>
+			<table border=2>
+	<thead>
+	<tr>
+	<td colspan=6 BGCOLOR=#DFDFDF height="30"><h1>
+	Uwaga1:<br><br>
+Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter.<br><br>
+Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground.<br><br>
+Uwaga2:<br><br>
+Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma wpływu na jego działanie.<br><br>
+Uwaga3:<br><br>
+Dlatego możesz ułożyć wpisywane reguły CSS w taki sposób, aby były bardziej czytelne np.<br><br>
+H1 {<br><br>
+font-weight : bold;<br><br>
+}<br><br>
+możemy zapisać<br><br>
+H1{font-weight:bold;}<br><br>
+Uwaga4:Komentarze w arkuszu stylów<br><br>
+pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza),<br><br>
+np.: /*to jest komentarz*/.<br><br>
+Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę.<br><br>
+Parsowaniepozyskiwanie interesujących informacji z kodu strony WWW.<br><br>
+http://sourceforge.net/projects/htmlcxx/<br><br>
+Renderowanie – przedstawienie informacji zawartych w dokumencie elektronicznym w formie najbardziej właściwej dla danego środowiska (np. wizualnie, w tym na ekranie i w druku, czy dźwiękowo).<br><br>
+	</table>
+	
+	
+	
+	
 	</ol>
 	
 	
