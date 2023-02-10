@@ -1,0 +1,28 @@
+p {
+	
+color: red;
+font-size: 22pt;
+
+	
+	
+}
+
+
+p#gruby_sykutera {
+	
+	color:green;
+	font-size:17pt;
+	font-weight:bold;
+	
+	
+	
+}
+
+#dlawszystkich_sykutera {
+	
+	color: yellow;
+	font-size: 10pt;
+	font-family: Arial;
+	
+	
+}

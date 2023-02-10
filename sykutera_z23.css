@@ -1,0 +1,38 @@
+p#pogrubienie_sykutera {
+	font-size:33px;
+	color:#95626C;
+	font-weight:bold;
+}
+
+
+p#pochylona{
+	font-size:38px;
+	color:#E9C66C;
+	font-style:italic;
+}
+
+p#index_gorny_sykutera{
+	font-size:1.3cm;
+	color:#A9941C;
+	vertical-align:super;
+}
+
+p#index_dolny_sykutera{
+	font-size:2.1cm;
+	color:RGB(27%, 97%, 89%);
+	vertical-align:sub;
+}
+
+p#mono_sykutera{
+	color:#29E46C;
+	font-size: 43px;
+}
+
+p#powiekszenie_nazwisko{
+	color:#63449E;
+	
+}
+
+p#pomniejszenie_nazwisko{
+	color: RGB(78%, 66%, 23%);
+}
