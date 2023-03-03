@@ -1,0 +1,79 @@
+p#jaro {
+    color:#ff0000;
+    font-size:1cm;
+    text-align:center;
+    }
+#z1_sykutera
+{
+    font-family:serif;
+color:rgb(63, 202, 45);
+font-variant:small-caps;
+font-weight:200;
+font-size:x-small;
+text-indent:2cm;
+line-height:1cm;
+word-spacing:12px;
+letter-spacing:5ex;
+}
+#z2_sykutera
+{
+    color:rgb(41, 182, 41);
+    font-family:serif;
+font-weight:700;
+font-size:medium;
+text-indent:2cm;
+line-height:1cm;
+word-spacing:12px;
+letter-spacing:5ex;
+}
+#z3_sykutera
+{
+    font-family:serif;
+    font-style:italic;  
+    color:rgb(9, 95, 9);
+    text-decoration: overline ;
+font-weight:900;
+font-size:large;
+text-indent:2cm;
+line-height:1cm;
+word-spacing:12px;
+letter-spacing:5ex;
+}
+
+p#akapit2_sykutera
+{
+    font-family:sans-serif;
+    text-decoration:line-through ;
+    font-style:oblique;    
+    text-indent:25mm;
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+
+
+}
+
+#z4_sykutera
+{
+    color:rgba(209, 112, 22, 0.795);
+font-variant:small-caps;
+font-weight:300;
+font-size:10px;
+}
+
+#z5_sykutera
+{
+    color:rgba(163, 88, 17, 0.795);
+text-transform: capitalize;
+font-weight:600;
+font-size:0.0729in;
+}
+#z6_sykutera
+{
+    color:rgba(110, 63, 20, 0.795);
+font-weight:800;
+font-size:0.7500em;
+}
+
+hr{
+    border-top: 1px dashed black;}
