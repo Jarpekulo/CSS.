@@ -40,39 +40,48 @@ word-spacing:12px;
 letter-spacing:5ex;
 }
 
-p#akapit2_sykutera
+
+
+#z4_sykutera
 {
-    font-family:sans-serif;
-    text-decoration:line-through ;
-    font-style:oblique;    
+	 font-family:sans-serif;
+	 text-decoration:line-through ;
+    color:rgba(209, 112, 22, 0.795);
+font-variant:small-caps;
+font-weight:300;
+font-size:10px;
     text-indent:25mm;
     line-height:15mm;
     word-spacing:10pt;
     letter-spacing:0.5cm;
 
-
-}
-
-#z4_sykutera
-{
-    color:rgba(209, 112, 22, 0.795);
-font-variant:small-caps;
-font-weight:300;
-font-size:10px;
 }
 
 #z5_sykutera
 {
+	 font-family:sans-serif;
     color:rgba(163, 88, 17, 0.795);
 text-transform: capitalize;
 font-weight:600;
 font-size:0.0729in;
+    text-indent:25mm;
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+
 }
 #z6_sykutera
 {
+	 font-style:oblique; 
+	 font-family:sans-serif;
     color:rgba(110, 63, 20, 0.795);
 font-weight:800;
 font-size:0.7500em;
+    text-indent:25mm;
+    line-height:15mm;
+    word-spacing:10pt;
+    letter-spacing:0.5cm;
+
 }
 
 hr{
