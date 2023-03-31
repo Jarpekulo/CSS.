@@ -1,0 +1,19 @@
+p
+{
+font-size:14pt;
+color:navy;
+color: rgb(255,255,0);
+font-size:5mm;
+}
+p:lang(pl)
+{
+font-weight:bold;
+color:rgb(255,215,0);
+font-size:6mm;
+}
+p:lang(en)
+{
+font-style:italic;
+color:rgb(107, 105, 101);
+font-size:10mm;
+}

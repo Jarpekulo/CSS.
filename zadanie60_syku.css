@@ -2,30 +2,9 @@
 hover zmienia elementyu po najechaniu na nie np mysza
 */ 
 
-blok1_sykutera{}
-
-
-
-
-
-blok2_sykutera{
-	
-	
-	
-	
-	
-	
-}
-
-
-
-
-
-
-
-
-blok3_sykutera{
-	
-	
-	
-}
+div#blok1_sykutera{background-color: #00ff00;width:660px;}
+div#blok2_sykutera {background-color: #00ff00;width:660px}
+div#blok3_sykutera {background-color: #00ff00;width:660px}
+div#blok1_sykutera:hover {background-color: #ffff00;font-size:18mm;}
+div#blok2_sykutera:hover {background-color: #FFD700;font-size:18mm;}
+div#blok3_sykutera:hover {background-color: #C0C0C0;font-size:18mm;}
