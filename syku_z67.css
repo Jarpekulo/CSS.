@@ -1,0 +1,78 @@
+p#je:first-letter {
+	
+	font-size:118pt;
+	color:rgb(255,255,0)
+	
+	
+	
+	
+}
+
+p#dw:first-letter {
+	
+	font-size:118pt;
+	color: rgb(255, 215, 0);
+	
+	
+	
+}
+
+p#je {
+	
+font-size:20pt;	
+color:rgb(192,192,192)
+	
+	
+	
+}
+
+
+p#dw{
+	
+	
+	font-size:21pt;
+	color:rgb(192,192,192);
+	
+	
+}
+
+h1 {
+	
+	color: rgb(100, 0,180);
+	
+}
+
+
+h1:first-letter {
+	
+	color:rgb(170,170,170);
+	font-size:120pt;
+	
+	
+}
+
+
+p#trz {
+	
+	color:rgb(0,0,230);
+	font-size:20pt;
+	
+	
+	
+}
+
+p#trz:first-line {
+	
+	color:rgb(255,0,0);
+	
+	
+	
+}
+
+p#trz:first-letter {
+	
+	font-size:120pt;
+	
+}
+
+
