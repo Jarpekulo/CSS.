@@ -1,0 +1,14 @@
+/* Jaroslaw Sykutera */ 
+
+body {
+	background-color:rgb(0,255,255);
+}
+	
+p { 
+width: 1000px;
+margin-left: auto; /* wyśrodkowanie */
+margin-right: auto;
+}
+	
+	
+}
