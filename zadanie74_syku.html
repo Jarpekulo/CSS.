@@ -1,0 +1,130 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+<table border="1px">
+  <tr>
+    <th>Kolor tła</th>
+    <td>Dzięki temu poleceniu można ustalić kolor tła dla danego elementu.
+Składnia reguły: ->  selektor {background-color: kolor;} <br><br> przyklad: body {background-color: yellow;}</td>
+  </tr>
+  <tr>
+    <th>Tło Obrazkowe</th>
+    <td>Dzięki temu poleceniu można ustalić tło obrazkowe dla danego elementu.
+Wyraz selektor ma zastosowanie do wszystkich elementów, którym chcemy nadać tło obrazka. ->selektor {background-image: url(adres);} <br><br> przyklad: body{background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg")};</td>
+  </tr>
+  
+  
+  
+  
+  <tr>
+    <th>Powtarzanie tła</th>
+    <td>Dzięki temu poleceniu można ustalić jeden z czterech sposobów powtarzania się obrazka jako tła. <br>
+	selektor {background-repeat: powtarzanie;} przyklad:body {background-repeat: repeat;} <br>
+	<br>
+parametry<br>	jednocześnie w pionie i poziomie - domyślnie<br>
+"repeat-x" - w poziomie<br>
+"repeat-y" - w pionie<br>
+"no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu
+	</td>
+  </tr>
+  
+  
+    <tr>
+    <th>Pozycja tła</th>
+    <td>Dzięki temu poleceniu można ustalić pozycję obrazka w ramach tła. Niemożliwe to jest przy wartości atrybutu powtarzania: repeat.
+	<br>selektor {background-position: pozycja;}<br>przyklad: body {background-position:center;} <br><br> 
+	pozycja:
+	"center" - obrazek na środku (w centrum)<br>
+"left" - obrazek po lewej<br>
+"right" - obrazek po prawej<br>
+"top" - obrazek na górze<br>
+"bottom" - obrazek na dole<br>
+jednostki miary - odległość od lewej krawędzi<br>
+dwie wartości (oddzielone spacją):<br>
+"left top" - lewy-górny róg<br>
+"left bottom" - lewy-dolny róg<br>
+"right top" - prawy-górny róg<br>
+"right bottom" - prawy-dolny róg<br>
+dwie jednostki miary - pierwsza z nich oznacza odległość od lewej krawędzi, a druga - od górnej<br>
+	<BR>
+	jednostki miary:<br>
+	piksele - px<br>
+punkty edytorskie - pt<br>
+wysokość litery "x" - ex<br>
+wysokość aktualnej czcionki - em<br>
+centymetry lub milimetry - cm, mm<br>
+części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+procent wielkości nadrzędnej - %<br>
+cale - in (1in=2.54cm)
+	</td>
+  </tr>
+    <tr>
+	
+	
+    <th>Zaczepienie tła</th>
+    <td>Domyślnie tło obrazkowe przesuwa się wraz z przewijaną stroną. Poleceniem tym można sprawić, że tło będzie nieruchome w czasie przewijania zawartości strony.
+	<BR>selektor {background-attachment: zaczepienie;}<br> przyklad: body{background-attachment:scroll;}<br>
+	zaczepienie:<br>
+"scroll" - przewijanie tła (domyślnie)<br>
+"fixed" - tło nieruchome
+	
+	</td>
+  </tr>
+  
+   
+
+    <tr>
+    <th>łączenie atrybutów tła</th>
+    <td>Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące tła.
+	selektor {background: wartości atrybutów;}<br>przyklad: p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) no-repeat scroll center;}
+	<br>
+	wartości atrybutów:<br>
+ kolor tła<br>
+ tło obrazkowe<br>
+ powtarzanie tła<br>
+ zaczepienie tła<br>
+ pozycja tła
+	</td>
+  </tr>
+   
+    <tr>
+    <th>Gradient liniowy</th>
+    <td>Gradient to wypełnienie tłem płynnym przejściu kilku kolorów.<br>selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) }<br>przyklad:background: linear-gradient(to bottom, black 0%, white 100%)
+	<br>słowa kluczowe<br>
+to top - przejście kolorów nastąpi pionowo z dołu do góry (odpowiednik 0deg)<br>
+to right top - ukośnie z lewego-dolnego do prawego-górnego narożnika<br>
+to right - poziomo z lewej do prawej strony (odpowiednik 90deg)<br>
+to right bottom - ukośnie z lewego-górnego do prawego-dolnego narożnika<br>
+to bottom - pionowo z górny do dołu (odpowiednik 180deg - domyślnie)<br>
+to left bottom - ukośnie z prawego-górnego do lewego-dolnego narożnika<br>
+to left - poziomo z prawej do lewej strony (odpowiednik 270deg)<br>
+to left top - ukośnie z prawego-dolnego do lewego-górnego narożnika<br>
+kąt - liczony zgodnie z ruchem wskazówek zegara<br>
+z wartością:<br>
+0deg skierowaną pionową w górę,<br>
+180deg - pionowo w dół<br>
+	</td>
+  </tr>
+  
+  
+     <tr>
+    <th>Gradient promienisty</th>
+    <td>Gradient promienisty to tło o płynnym przejściem kilku kolorów, wywołując efekt trójwymiarowej kuli lub oświetlenia latarki
+	selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }<br>przyklad:repeating-radial-gradient(white 33%, black 66%)<br>
+	słowa kluczowe:<br>
+closest-side - gradient będzie się rozchodził do najbliższej krawędzi elementu<br>
+farthest-side - do najdalszej krawędzi<br>
+closest-corner - do najbliższego narożnika<br>
+farthest-corner - do najdalszego narożnika (domyślnie)<br>
+promień - podany za pomocą jednostek długości lub procentowo<br>
+poziom pion - poziomy i pionowy promień elipsy, określony za pomocą jednostek długości lub procentowo<br>
+	</td>
+  </tr>
+</table>
+</body>
+
+</html>
